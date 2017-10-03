@@ -1,5 +1,5 @@
-module.exports = ((sequelize, DataTypes) => {
-  const burger = sequelize.define("burgers", {
+module.exports = (sequelize, DataTypes) => {
+  const Burger = sequelize.define("burgers", {
     burger_name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -9,5 +9,5 @@ module.exports = ((sequelize, DataTypes) => {
       defaultValue: false
     }
   });
-  return burger;
-});
+  return Burger;
+};
