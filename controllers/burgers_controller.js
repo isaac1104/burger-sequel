@@ -24,15 +24,15 @@ router.post("/", (req, res) => {
   res.redirect("/");
 });
 
-router.put("/burgers/:id", (req, res) => {
+router.put("/:id", (req, res) => {
   db.burgers.update({
-    devoured: req.body.devoured
+    devoured: true
   }, {
     where: {
-      id: req.body.id
+      id: req.params.id
     }
   }).then((result) => {
-    res.json(result);
+    res.redirect("/");
   });
 });
 
