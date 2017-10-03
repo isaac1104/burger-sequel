@@ -1,0 +1,29 @@
+{
+  "name": "burger-sequel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaac1104/burger-sequel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaac1104/burger-sequel/issues"
+  },
+  "homepage": "https://github.com/isaac1104/burger-sequel#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.13.2"
+  }
+}
